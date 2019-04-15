@@ -1,0 +1,16 @@
+Skipped:
+	27
+	31
+	44
+	47
+	49
+	51
+	53
+
+Dislike current solution or have some questions:
+	37
+	39
+	40
+	41
+	48
+	55	

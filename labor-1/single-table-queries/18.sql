@@ -1,4 +1,4 @@
 SELECT * 
 FROM classes
 WHERE country = 'Japan'
-ORDER BY type
+ORDER BY type DESC

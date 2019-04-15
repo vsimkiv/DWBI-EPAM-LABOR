@@ -1,0 +1,4 @@
+SELECT * 
+FROM income_o
+WHERE inc BETWEEN 5000 AND 10000
+ORDER BY inc

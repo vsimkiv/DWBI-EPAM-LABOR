@@ -1,0 +1,4 @@
+Skipped:
+	21-24 (CROSS APPLY)
+Dislike current solution or have some questions:
+	4

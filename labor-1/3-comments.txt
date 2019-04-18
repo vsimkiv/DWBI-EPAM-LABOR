@@ -1,0 +1,4 @@
+Skipped:
+	1-4, 10, 12, 14-17, 19-31
+Dislike current solution or have some questions:
+	18

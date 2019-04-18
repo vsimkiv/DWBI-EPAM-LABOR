@@ -1,16 +1,3 @@
-Skipped:
-	27
-	31
-	44
-	47
-	49
-	51
-	53
-
-Dislike current solution or have some questions:
-	37
-	39
-	40
-	41
-	48
-	55	
+Dislike current solution or could be bad with another input data or another parameters of selection:
+	37, 54 		- bad solution for planes which include more than 9 rows)
+	39, 40, 55 	- bad solution for peoples with names which consists of 2+ words) for example 'Tommy Lee Jones'	

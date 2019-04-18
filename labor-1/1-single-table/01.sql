@@ -1,4 +1,4 @@
 SELECT maker, type
 FROM product
-WHERE type = 'LAPTOP'
+WHERE type = 'laptop'
 ORDER BY maker ASC

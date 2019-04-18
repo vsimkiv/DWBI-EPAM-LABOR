@@ -1,4 +1,5 @@
-SELECT maker, COUNT(model) as model_count
-FROM product
+SELECT maker, COUNT(DISTINCT model) AS model_count
+FROM product 
+WHERE type = 'pc'
 GROUP BY maker
-HAVING COUNT(model) >= 2
+HAVING COUNT(DISTINCT model) > 1

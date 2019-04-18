@@ -1,3 +1,3 @@
-SELECT DISTINCT(type), COUNT(model)
+SELECT type, COUNT(model) AS model_count
 FROM printer
 GROUP BY type

@@ -1,3 +1,3 @@
-SELECT ships.name, classes.displacement
-FROM ships
-JOIN classes ON classes.class = ships.class
+SELECT s.name, c.displacement
+FROM ships s
+JOIN classes c ON c.class = s.class

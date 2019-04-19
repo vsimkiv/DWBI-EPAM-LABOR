@@ -1,4 +1,4 @@
-SELECT product.maker, product.type, product.model, laptop.speed
-FROM product
-JOIN laptop ON product.model = laptop.model
-WHERE laptop.speed <= 600
+SELECT p.maker, p.type, p.model, l.speed
+FROM product p 
+JOIN laptop l ON p.model = l.model
+WHERE l.speed > 600

@@ -1,4 +1,4 @@
-SELECT product.model, product.maker
-FROM product
-JOIN printer ON product.model = printer.model
-WHERE printer.price < = 300
+SELECT prd.model, prd.maker
+FROM product prd
+JOIN printer prn ON prd.model = prn.model
+WHERE prn.price < = 300

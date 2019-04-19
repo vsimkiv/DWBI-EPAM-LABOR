@@ -1,3 +1,3 @@
-SELECT product.maker, product.model, pc.price
-FROM product
-JOIN pc ON product.model = pc.model
+SELECT pr.maker, pr.model, pc.price
+FROM product pr
+JOIN pc ON pr.model = pc.model

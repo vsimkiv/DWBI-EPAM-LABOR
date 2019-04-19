@@ -1,4 +1,5 @@
-SELECT product.maker, product.model, pc.price
-FROM product
-LEFT JOIN pc ON product.model = pc.model
-WHERE product.type = 'pc'
+SELECT pr.maker, pr.model, pc.price
+FROM product pr
+LEFT JOIN pc ON pr.model = pc.model
+WHERE pr.type = 'pc'
+ORDER BY maker, model, price

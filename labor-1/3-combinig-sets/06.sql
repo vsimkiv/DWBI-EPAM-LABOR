@@ -1,7 +1,9 @@
-;WITH CTE(number) AS
 (SELECT number = 1
 UNION ALL
-SELECT number + 1 FROM CTE WHERE number<1000
+SELECT number + 1 
+FROM cte 
+WHERE number<10000
 )
-SELECT number FROM CTE
-option (maxrecursion 1000)
+SELECT number 
+FROM cte
+OPTION (maxrecursion 10000)

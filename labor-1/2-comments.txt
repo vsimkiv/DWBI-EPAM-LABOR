@@ -1,4 +1,2 @@
-Skipped:
-	21-24 (CROSS APPLY)
 Dislike current solution or could be bad with another input data or another parameters of selection:
 	4
